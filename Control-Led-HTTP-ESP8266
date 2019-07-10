@@ -41,7 +41,7 @@ WiFiManager wifiManager;
  //set custom ip for portal
  //wifiManager.setAPStaticIPConfig(IPAddress(10,0,1,1), IPAddress(10,0,1,1), IPAddress(255,255,255,0));
 
-wifiManager.autoConnect("ESP8266Temp");
+wifiManager.autoConnect("ESP8266Temp","password");
 Serial.println("Conectado !!! ");
  
   // Inicializo el servidor
