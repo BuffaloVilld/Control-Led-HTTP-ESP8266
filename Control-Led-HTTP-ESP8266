@@ -42,7 +42,7 @@ WiFiManager wifiManager;
  //wifiManager.setAPStaticIPConfig(IPAddress(10,0,1,1), IPAddress(10,0,1,1), IPAddress(255,255,255,0));
 
 wifiManager.autoConnect("ESP8266Temp");
-
+Serial.println("Conectado !!! ");
  
   // Inicializo el servidor
   server.begin();
